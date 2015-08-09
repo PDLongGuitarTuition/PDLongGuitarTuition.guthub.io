@@ -1,3 +1,70 @@
+body { background-color:red;
+	   height:100%;
+	   /*background-image:url('images/background.png');
+	   background-repeat:repeat-y;
+       background-position:center center; */
+	 }
+	 
+.wrapper
+    { text-align:left;
+	  width:100%;
+	  position:relative;
+	}
+	
+	p, h1, h2 {margin-top: 0px; margin-bottom: 0px;}	
+	
+	
+#container
+	{ 
+	  margin:0 auto;
+	  width:1300px;
+	  background-color:blue;
+	}
+	
+#content
+	{ 
+	  margin:0 auto;
+	  width:900px;
+	  background-color:white;
+	  text-align:left;
+	  min-height:750px;
+	  z-index: 1;
+	  line-height: 25px;
+	  padding-left:10px;
+	}
+	
+#banner
+	{  
+	  margin:0 auto;
+	  background-color:white;
+	  background-position:left left;
+	  width: 900px;
+	  height: 200px;
+	  padding-left:10px;
+	  }
+	  
+	  
+#footer
+ 	{
+	  margin:0 auto;
+	  width: 900px;
+	  height: 20px;
+	  font-size: 11px;
+	  padding-right:10px;
+	  text-align: right;
+	}
+	
+#sidebar
+	{
+	width:350px;
+	float:right;
+	margin-top: 0px;
+	margin-right: 200px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	background-color: green;
+	}	
 
 
 /*social buttons code START*/
@@ -11,7 +78,7 @@
 }
 
 #menu-wrap {
-	width:262px;
+	width:162px;
 	height:1px;
 	float: right;
 /*	border-bottom:#09F thin solid;
@@ -45,20 +112,13 @@
 	background:#44CCF6;
 	color:#FFF;
 }
- #menu-wrap .menu-item i.fa-youtube {
-	background:#CE332D;
-	color:#FFF;
-}
+
  #menu-wrap .menu-item i.fa-google-plus {
 	background:#D13F2D;
 	color:#FFF;
 }
 
- #menu-wrap .menu-item i.fa-soundcloud {
-	background:#FF9900;
-	color:#FFF;
-}
-	
+ 
  #menu-wrap .menu-item span {
 	width:32px;
 	height:32px;
