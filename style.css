@@ -1,8 +1,10 @@
-body { background-color:red;
+body { background-color:#996633;
 	   height:100%;
-	   /*background-image:url('images/background.png');
+	   background-image:url('images/background.png');
 	   background-repeat:repeat-y;
-       background-position:center center; */
+       background-position:center center;
+	   /*font-family: Verdana, Geneva, sans-serif;	*/
+       font-family: 'PT Sans', sans-serif;	   
 	 }
 	 
 .wrapper
@@ -18,7 +20,10 @@ body { background-color:red;
 	{ 
 	  margin:0 auto;
 	  width:1300px;
-	  background-color:blue;
+	  background-image:url('images/inback.png');
+	  background-repeat:repeat-y;
+      background-position:center center; 
+	   
 	}
 	
 #content
@@ -36,11 +41,13 @@ body { background-color:red;
 #banner
 	{  
 	  margin:0 auto;
-	  background-color:white;
-	  background-position:left left;
+	  /*background-color:white;
+	  background-position:left left; */
 	  width: 900px;
 	  height: 200px;
 	  padding-left:10px;
+	  background-image:url('images/banner.png');
+      background-position:center center; 
 	  }
 	  
 	  
@@ -57,16 +64,99 @@ body { background-color:red;
 #sidebar
 	{
 	width:350px;
+	min-height:740px;
 	float:right;
 	margin-top: 0px;
-	margin-right: 200px;
+	margin-right: 195px;
 	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-left: 5px;
 	padding: 5px;
-	background-color: green;
+	background-color: #999999;
+	/*background-color: #2C5885;*/
+	}	
+	
+#menu ul
+	{
+	  list-style-type:none;
+      margin:0;
+	  padding:0;
+      padding-top:112px;
+	  
+	} 
+	
+#menu b
+		{ 
+	  
+	  background-color: rgba(0, 0, 0, 0.1);
+	  display:block;
+	  width:15px; 
+      height:55px;
+	}
+
+	
+#menu a
+	{ 
+	  
+	  width: 80px;
+	  text-decoration:none;
+	  color:black;
+	  display:block;
+	  line-height: 55px;  
+	  text-align:center;
+	  background-color: rgba(0, 0, 0, 0.1);
+	  
+	}
+	
+	
+#menu h2
+{
+	  
+	  
+	  font-size: 13pt;
+}
+	
+#menu a.GT
+	{
+	   width:120px;
+      
 	}	
 
+#menu a.lnk
+	{
+	   width:40px;
+	   display:block;
+	   font-size: 20pt;
+	   height: 40px; 
+       padding-top: 38%;
+	}	
 
+#menu i
+{
+	
+}	
+	
+
+	
+#menu a#active
+	{
+	   color:rgba(0, 0, 0, 0.5);
+      
+	}
+	
+#menu a:hover
+	{
+	  color:rgba(255, 255, 255, 0.5);
+	}
+	
+
+#menu li
+	{	
+	  float:left
+	}	
+	
+	
+	
+	
 /*social buttons code START*/
 /* ------------------------------------------------------------------------------------------------------------*/
 @font-face {
@@ -77,126 +167,5 @@ body { background-color:red;
   font-style: normal;
 }
 
-#menu-wrap {
-	width:162px;
-	height:1px;
-	float: right;
-/*	border-bottom:#09F thin solid;
-	border-bottom-width:3px;*/
-	padding:125px 0px 0px 0px;
-	margin:0px 0px 50px 0px;
-	text-align:left;
-	line-height:13px;
-}
-
- #menu-wrap .menu-item {
-    width: 38px;
-    height: 55px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 3px;
-}
-
- #menu-wrap .menu-item i {
-    width:100%;
-	padding:7px 0px 5px 0px;
-	border-radius:3px;
-}
-
- #menu-wrap .menu-item i.fa-facebook {
-	background:#3B5998;
-	color:#FFF;
-}
- #menu-wrap .menu-item i.fa-twitter {
-	background:#44CCF6;
-	color:#FFF;
-}
-
- #menu-wrap .menu-item i.fa-google-plus {
-	background:#D13F2D;
-	color:#FFF;
-}
-
- 
- #menu-wrap .menu-item span {
-	width:32px;
-	height:32px;
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    text-align: center;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    display: block;
-	color:rgba(0, 0, 0, 0.9);
-/*	border:#09F thin solid;
-	border-width:2px;*/
-	border-radius:50%;
-}
-
- #menu-wrap .menu-item span:hover {
-    top: -29px;
-	font-size:20px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-span.active {
-	top:-20px !important;
-	font-size:0px !important;
-}
-
- #menu-wrap .menu-item a {
-	font-size:12px;
-	color:#445878;
-	text-decoration:none;
-}
-
- #menu-wrap .menu-item .text {
-	text-decoration: none;
-    font-size: 0px;
-    padding:0px 0px 17px 0px;
-    text-align: center;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:normal;
-    width: 100%;
-    position: absolute;
-    bottom: -27px;
-    display: block;
-/*	border-top:#CCC thin solid;
-	border-top-width:1px;*/
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
- #menu-wrap .menu-item:hover > .text {
-    bottom: 0;
-	font-size:25px;
-	padding:0;
-    -webkit-transition: all 0.5s ease-in-out;
-   -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-	text-align:center;
-}
-
- #menu-wrap .menu-item .icon {
-    width: 32px;
-    height: 32px;
-	padding:13px 9px 5px 4px;
-	font-size:25px;
-	text-align:center;
-}
 /*Social button code END*/
 /* -------------------------------------------------------------------------------------------------------
