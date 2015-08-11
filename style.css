@@ -1,6 +1,6 @@
-body { background-color:#996633;
+body { background-color:#A34100;
 	   height:100%;
-	   background-image:url('images/background.png');
+	   background-image:url('images/inback.png');
 	   background-repeat:repeat-y;
        background-position:center center;
 	   /*font-family: Verdana, Geneva, sans-serif;	*/
@@ -26,18 +26,6 @@ body { background-color:#996633;
 	   
 	}
 	
-#content
-	{ 
-	  margin:0 auto;
-	  width:900px;
-	  background-color:white;
-	  text-align:left;
-	  min-height:750px;
-	  z-index: 1;
-	  line-height: 25px;
-	  padding-left:10px;
-	}
-	
 #banner
 	{  
 	  margin:0 auto;
@@ -51,6 +39,41 @@ body { background-color:#996633;
 	  }
 	  
 	  
+#main
+{
+	margin:0 auto;
+	width:910px;
+	background-color:#E16F11;
+	position: relative;
+	overflow: hidden;
+}
+	  
+#content
+	{ 
+	  width: 550px;
+	  text-align:left;
+	  min-height:750px;
+	  line-height: 25px;
+	  background-color:white;
+      padding-left:10px;
+	  padding-right:5px;
+	}	 
+
+	
+
+	
+#sidebar
+	{
+		width:335px;
+		float:right;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 5px;
+		padding: 5px;
+		/*background-color: #2C5885;*/
+	}	
+	
 #footer
  	{
 	  margin:0 auto;
@@ -60,20 +83,6 @@ body { background-color:#996633;
 	  padding-right:10px;
 	  text-align: right;
 	}
-	
-#sidebar
-	{
-	width:350px;
-	min-height:740px;
-	float:right;
-	margin-top: 0px;
-	margin-right: 195px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	padding: 5px;
-	background-color: #999999;
-	/*background-color: #2C5885;*/
-	}	
 	
 #menu ul
 	{
@@ -87,7 +96,7 @@ body { background-color:#996633;
 #menu b
 		{ 
 	  
-	  background-color: rgba(0, 0, 0, 0.1);
+	  background-color: #E16F11;
 	  display:block;
 	  width:15px; 
       height:55px;
@@ -103,7 +112,7 @@ body { background-color:#996633;
 	  display:block;
 	  line-height: 55px;  
 	  text-align:center;
-	  background-color: rgba(0, 0, 0, 0.1);
+	  background-color: #E16F11;
 	  
 	}
 	
@@ -139,13 +148,13 @@ body { background-color:#996633;
 	
 #menu a#active
 	{
-	   color:rgba(0, 0, 0, 0.5);
+	   color:rgba(255, 255, 255, 0.8);
       
 	}
 	
 #menu a:hover
 	{
-	  color:rgba(255, 255, 255, 0.5);
+	  color:rgba(255, 255, 255, 0.7);
 	}
 	
 
