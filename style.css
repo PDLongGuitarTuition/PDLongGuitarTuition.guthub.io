@@ -43,7 +43,7 @@ body { background-color:#A34100;
 {
 	margin:0 auto;
 	width:910px;
-	background-color:#E16F11;
+	background-color:rgba(0, 0, 0, 0.12);
 	position: relative;
 	overflow: hidden;
 }
@@ -96,7 +96,7 @@ body { background-color:#A34100;
 #menu b
 		{ 
 	  
-	  background-color: #E16F11;
+	  background-color:rgba(0, 0, 0, 0.12);
 	  display:block;
 	  width:15px; 
       height:55px;
@@ -112,7 +112,7 @@ body { background-color:#A34100;
 	  display:block;
 	  line-height: 55px;  
 	  text-align:center;
-	  background-color: #E16F11;
+	  background-color:rgba(0, 0, 0, 0.12);
 	  
 	}
 	
