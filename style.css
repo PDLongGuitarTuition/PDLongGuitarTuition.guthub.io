@@ -50,7 +50,7 @@ body { background-color:#A34100;
 	  
 #content
 	{ 
-	  width: 550px;
+	  width: 605px;
 	  text-align:left;
 	  min-height:750px;
 	  line-height: 25px;
@@ -64,16 +64,31 @@ body { background-color:#A34100;
 	
 #sidebar
 	{
-		width:335px;
+		width:280px;
 		float:right;
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
 		margin-left: 5px;
 		padding: 5px;
+		line-height: 5px;
 		/*background-color: #2C5885;*/
 	}	
 	
+#message
+{
+	background-color:rgba(0,0,0,0.3);
+	line-height:6px;
+	margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+	padding-bottom: 20px;
+	padding-top: 1px;
+}	
+
+
+
 #footer
  	{
 	  margin:0 auto;
